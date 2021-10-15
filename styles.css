@@ -1,0 +1,39 @@
+.main-wrapper{
+	color: white;
+	max-width: 1200px;
+	background-color: white;
+	padding: 50px;
+}
+.first-block{
+	padding: 40px;
+	background: #585960;
+	display: flex;
+	justify-content: space-between;
+}
+.first-block_text{
+	width: 60%;
+}
+
+.first-block_image{
+	height: 160px;
+	background: whitesmoke;
+	width: 30%;
+}
+.text-header{
+	font-size: 40px;
+	margin: 0 0 20px 0;
+	font-family: Roboto, sans-serif;
+}
+.text-text_children{
+	font-family: Roboto, sans-serif;
+	font-size: 17px;
+	display: flex;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.children_img-image{
+	width: 17px;
+}
+.children_img{
+	margin-right: 10px;
+}
