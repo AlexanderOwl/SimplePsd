@@ -37,3 +37,31 @@
 .children_img{
 	margin-right: 10px;
 }
+.Put_on_this_page_information_about_your_product {
+	font-size: 20px;
+	font-family: "Arial";
+	color: rgb(255, 255, 255);
+	line-height: 1.8;
+	text-align: left;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .bg_review {
+	background-image: url("bg review.png");
+	position: absolute;
+	left: 141px;
+	top: 1824px;
+	width: 483px;
+	height: 121px;
+	z-index: 109;
+  }
+  .bg {
+	background-image: url("bg.png");
+	position: absolute;
+	left: 835px;
+	top: 2103px;
+	width: 300px;
+	height: 499px;
+	z-index: 155;
+  }
+  
