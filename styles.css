@@ -1,67 +1,97 @@
-.main-wrapper{
-	color: white;
-	max-width: 1200px;
-	background-color: white;
-	padding: 50px;
+*{
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0;
 }
-.first-block{
-	padding: 40px;
-	background: #585960;
-	display: flex;
-	justify-content: space-between;
-}
-.first-block_text{
-	width: 60%;
+body {
+	display: block;
+    margin: 0px;
 }
 
-.first-block_image{
-	height: 160px;
-	background: whitesmoke;
-	width: 30%;
+h2{
+	opacity:1;
+	color:#445161;
+	font-size: 30px;
+	font-weight:lighter;
+	text-align: center;
+	margin-top: -5px;
+	margin-bottom: 30px;
 }
-.text-header{
-	font-size: 40px;
-	margin: 0 0 20px 0;
-	font-family: Roboto, sans-serif;
+
+p{
+	opacity:1;	
+	color:#333333;
+	line-height: 1.5;
+	
 }
-.text-text_children{
-	font-family: Roboto, sans-serif;
-	font-size: 17px;
+.main-wrapper{	
+	background-color: white;	
+}
+
+.dark-blue{
+	color: white;	
+	background-color: #445161;
+}
+
+.block-content{	
+	box-sizing: border-box;
+	max-inline-size: 1280px;
+	padding: 50px;	
+	margin-right: auto;
+    margin-left: auto;
 	display: flex;
-	padding-top: 3px;
-	padding-bottom: 3px;
+    justify-content: space-between;	
+	
 }
-.children_img-image{
-	width: 17px;
+
+
+.product .block-content{
+	height: 323px;
 }
-.children_img{
-	margin-right: 10px;
+.product h1{
+	opacity:1;
+	font-size: 60px;
+	font-weight:lighter;
+	margin-left: -4px;
+	margin-top: -11px;
 }
-.Put_on_this_page_information_about_your_product {
-	font-size: 20px;
-	font-family: "Arial";
-	color: rgb(255, 255, 255);
-	line-height: 1.8;
-	text-align: left;
-	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-  }
-  
-  .bg_review {
-	background-image: url("bg review.png");
+.product ul{
+	opacity:1;
+	color:#FFFFFF;	
+	font-size:20px;	
+    display: block;
+    list-style:none;
+	padding-left:0;  	
+	margin-top: 35px;
+}
+.product li{
+	position: relative;
+	padding-left: 1.5em;
+	margin: 13px 5px;
+}
+.product li:before {
+	content: '';  /* placeholder for the SVG */
 	position: absolute;
-	left: 141px;
-	top: 1824px;
-	width: 483px;
-	height: 121px;
-	z-index: 109;
-  }
-  .bg {
-	background-image: url("bg.png");
-	position: absolute;
-	left: 835px;
-	top: 2103px;
-	width: 300px;
-	height: 499px;
-	z-index: 155;
-  }
-  
+	left: 0;  /* place the SVG at the start of the padding */
+	width: 1em;
+	height: 1em;
+	background: url(/images/checkMark.svg) no-repeat;
+	font-size: 25px;
+}
+.product li:last-child{
+	margin-bottom: 0px;
+}
+
+.about h2{
+	text-align: start;
+}
+.about p{
+	opacity:1;
+	margin: -5px 0 15px -1px;
+	color:#333333;
+
+
+}
+.video{
+	margin-left: 98px;
+}
+
